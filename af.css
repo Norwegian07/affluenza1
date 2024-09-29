@@ -1,42 +1,42 @@
-@media screen and (max-width : 1000px) {
+@media screen and (max-width : 600px) {
     html,head{
-        width: 100%;
-        margin: 0;
+        width: 600px;
+               margin: 0;
         background-color: rgb(255, 255, 255);
     }
 
 /* navigation */
 
 nav{
-    width: 100%;
-    height: 100px;
+    width: 600px;
+    height: 70px;
     margin: 0;
     border: 1px solid black;
 }
 .name{
-    margin: 35px 0 15px 105px;
+    margin: 15px 0 15px 25px;
     font-weight: bolder;
 }
 #navi{
     float: right;
-    margin: -75px 25px 0 0;
+    margin: -65px 25px 0 0;
 }
 #line1,#line2,#line3,.line4,.line5{
-    width: 80px;
-    height: 7px;
+    width: 55px;
+    height: 5px;
     background-color: black;
 }
 #line2{
-    width: 70px;
+    width: 45px;
     margin-left: 10PX;
 }
 .line4,.line5{
-    width: 65px;
+    width: 35px;
    margin: 0;
     rotate: 135deg;
 }
 .line5{
-    width: 65px;
+    width: 35px;
     rotate: 225deg;
     margin: -5.5px 0 0 0;
 
@@ -55,7 +55,7 @@ nav{
      display: block;
      font-size: 28px;
      color: black;
-     margin: 20px 0 35px 380px;
+     margin: 20px 0 35px 210px;
      border: 1px solid black;
      width: 200px;
      box-shadow: 2px 2px black;
@@ -64,10 +64,37 @@ nav{
        margin: 45px 30px 0 50px;
 }
 
+/* product editing */
 
+#product1{
+   width: 100%;
+   height: 300px;
+}
+.productdetails{
+    width: 44%;
+    height: 300px;
+    border: 1px solid black; 
+    float: left;
+    padding: 5px;
+margin:2% 0 0 3%;
+}
 
+.p-image{
+   width: 100%;
+   height: 180px;
+   margin: 20px 0 0 0;
 
-
+}
+.p-discription{
+    width: 233px;
+     border: 1px solid black;
+    background-color: black;
+    color: white;
+   margin: 45px 0 0 -5px;
+text-align: center;
+padding: 17px;
+position: relative;
+} 
 
 
 }
