@@ -1,0 +1,51 @@
+@media screen and (max-width : 600px) {
+
+    html,head{
+        width: 600px;
+               margin: 0;
+        background-color: rgb(255, 255, 255);
+    }
+
+
+#blogid{
+    width: 100%;
+    height: 300px;
+    border: 1px solid black;
+    margin: 25px 0 0 0;
+}
+#blogid a{
+    text-decoration: none;
+    color: black;
+}
+.title{
+    font-size: 28px;
+    font-weight: bolder;
+    text-align: center;
+}
+.blogtitleimg{
+    width: 100%;
+    height: 250px;
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
