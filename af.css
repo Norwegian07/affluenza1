@@ -9,6 +9,7 @@ nav{
 }
 #navi{
     display: none;
+    
 }
 #close{
     display: none;
@@ -16,6 +17,7 @@ nav{
 .name{
     margin-left: 100px;
 }
+
 .nav-contains{
     margin: -3% 0 0 75%;
 }
